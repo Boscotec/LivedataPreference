@@ -3,7 +3,9 @@
 # Download
 
 dependencies {
+
   implementation 'com.boscotec:livedata-preference:0.0.1'
+
 }
 
 # License
