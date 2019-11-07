@@ -13,19 +13,19 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'livedata-preferences'
+    bintrayRepo = 'maven' //the maven repo name (created on bintray)
+    bintrayName = 'livedata-preferences' //the package name on bintray
+    orgName = 'boscotec' //your user name
 
-    publishedGroupId = 'com.boscotec'
-    libraryName = 'LivedataPreferences'
-    artifact = 'livedata-preferences'
+    publishedGroupId = 'com.boscotec' // Group id
+    artifact = 'livedata-preferences' // Library name
+    libraryVersion = '0.0.2' // Library version
 
+    libraryName = 'livedata-preferences'
     libraryDescription = 'A wrapper to provide shared preference as a livedata'
 
     siteUrl = 'https://github.com/Boscotec/LivedataPreference'
     gitUrl = 'https://github.com/Boscotec/LivedataPreference.git'
-
-    libraryVersion = '0.0.1'
 
     developerId = 'boscotec'
     developerName = 'Ibemere Johnbosco'
@@ -55,12 +55,6 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-    }
-    lintOptions {
-        textReport true
-        textOutput 'stdout'
-        // We run a full lint analysis as build part in CI, so skip vital checks for assemble tasks.
-        checkReleaseBuilds false
     }
 }
 
