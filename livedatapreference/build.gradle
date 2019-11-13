@@ -19,7 +19,7 @@ ext {
 
     publishedGroupId = 'com.boscotec' // Group id
     artifact = 'livedata-preferences' // Library name
-    libraryVersion = '0.0.2' // Library version
+    libraryVersion = '0.0.3' // Library version
 
     libraryName = 'livedata-preferences'
     libraryDescription = 'A wrapper to provide shared preference as a livedata'

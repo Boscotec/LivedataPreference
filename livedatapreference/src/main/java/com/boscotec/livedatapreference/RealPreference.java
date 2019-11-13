@@ -17,8 +17,7 @@ public final class RealPreference<T> extends LiveData<T> implements Preference<T
   private final T defaultValue;
   private final Adapter<T> adapter;
 
-  public RealPreference(@NonNull SharedPreferences sharedPrefs, @NonNull final String key,
-                        T defValue, Adapter<T> adapter) {
+  public RealPreference(@NonNull SharedPreferences sharedPrefs, @NonNull final String key, T defValue, Adapter<T> adapter) {
     super();
     checkParameterIsNotNull(sharedPrefs, "sharedPrefs");
     checkParameterIsNotNull(key, "key");
