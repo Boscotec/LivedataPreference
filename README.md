@@ -8,7 +8,7 @@ dependencies {
     implementation 'com.boscotec:livedata-preferences:0.0.2'
 }
 
-[ ![Download](https://api.bintray.com/packages/boscotec/maven/livedata-preferences/images/download.svg?version=0.0.2) ](https://bintray.com/boscotec/maven/livedata-preferences/0.0.2/link)
+[ ![Download](https://api.bintray.com/packages/boscotec/maven/livedata-preferences/images/download.svg?version=0.0.3) ](https://bintray.com/boscotec/maven/livedata-preferences/0.0.3/link)
 
 # License
 Copyright 2019 Johnbosco Ibemere
